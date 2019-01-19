@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/task3_top_toolbar_menu">
+    <item
+        android:icon="@drawable/sort_by_title"
+        android:id="@+id/task3_top_toolbar_sort_by_title"
+        android:title="Sort By Title"
+        android:orderInCategory="103"
+        app:showAsAction="always">
+    </item>
+    <item
+      android:icon="@drawable/up"
+      app:showAsAction="always"
+      android:orderInCategory="102"
+      android:title="Unhide standalone Toolbar"
+      android:id="@+id/task3_top_toolbar_menu_unhide">
+    </item>
+</menu>
